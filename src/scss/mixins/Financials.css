@@ -1,0 +1,255 @@
+.product-section1 {
+  padding: 4rem 0;
+  height: 600px;
+}
+.product-section1 h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-weight: 500;
+}
+.product-section1 h1.dark {
+  color: #fff;
+}
+.product-section1 h1.light {
+  color: black;
+}
+.product-section1 .slick-slider1 {
+  width: 100%;
+  margin-left: -100px;
+  height: 600px;
+}
+.product-section1 .slick-dots li button::before {
+  background-color: gray;
+}
+.product-section1 .slick-list {
+  right: 100px;
+  height: 400px;
+}
+.product-section1 .content5 {
+  max-width: 850px;
+  width: calc(100% - 2rem);
+  margin-left: 250px;
+}
+.product-section1 .content5 .slider-image {
+  width: 300px;
+  height: 300px;
+}
+.product-section1 .content5 .logo2 {
+  width: 347px;
+  height: 347px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 3;
+}
+.product-section1 .content5 .card2 {
+  padding: 1rem 9rem;
+  max-width: 457px;
+  height: 350px;
+  box-shadow: 6px 6px #ff4801;
+  background-color: lightcoral;
+  background: url(/img/bg1.jpg);
+  border-radius: 20px;
+  position: relative;
+  color: white;
+  padding-top: 2rem;
+  font-size: 19px;
+}
+.product-section1 .content5 .card2::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0rem;
+  z-index: 1;
+  border-radius: 25px;
+  left: 0rem;
+}
+.product-section1 .content5 .card2::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0rem;
+  z-index: 2;
+  border-radius: 25px;
+  left: 0rem;
+}
+.product-section1 .content5 .card2 h3 {
+  color: #FF4801;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+
+.ContactUs-section {
+  padding: 5rem 0rem 0rem 2px;
+  margin-right: 40rem;
+}
+.ContactUs-section h1 {
+  text-align: center;
+  color: #FF4801;
+  font-family: Poppins;
+  font-size: 47px;
+  font-weight: 341;
+  line-height: 189px;
+  letter-spacing: 0em;
+  color: black;
+  margin-left: 50rem;
+}
+.ContactUs-section h1.dark {
+  color: #FF4801;
+  padding-right: 6rem;
+  color: whitesmoke;
+}
+.ContactUs-section h1.light {
+  color: #FF4801;
+  padding-right: 6rem;
+  color: whitesmoke;
+}
+.ContactUs-section .content18 {
+  max-width: 150rem;
+  width: calc(100% - 2rem);
+  margin: 3px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ContactUs-section .content18 .card9 {
+  padding: 100px 0rem 0rem 43px;
+  width: 816px;
+  position: relative;
+  border-radius: 25px;
+  left: 127px;
+  height: 600px;
+  box-shadow: 3px 3px #FF4801;
+  background-color: gray;
+  margin-left: 30rem;
+  position: relative;
+  border-radius: 25px;
+}
+.ContactUs-section .content18 .card9 .card9.dark {
+  padding: 121px 0rem 0rem 43px;
+  width: 816px;
+  position: relative;
+  border-radius: 25px;
+  left: 127px;
+  height: 800px;
+  box-shadow: 3px 3px #FF4801;
+  background-color: #051341;
+  position: relative;
+  border-radius: 25px;
+}
+.ContactUs-section .content18 .card9 .card9.light {
+  padding: 100px 0rem 0rem 43px;
+  width: 816px;
+  position: relative;
+  border-radius: 25px;
+  left: 127px;
+  height: 800px;
+  box-shadow: 3px 3px #FF4801;
+  background-color: white;
+  position: relative;
+  border-radius: 25px;
+}
+.ContactUs-section .content18 .card9 h3 {
+  color: #FF4801;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+.ContactUs-section .content18 .card9 p.dark {
+  color: #fff;
+  position: relative;
+  z-index: 3;
+}
+.ContactUs-section .content18 .card9 p.light {
+  color: black;
+  position: relative;
+  z-index: 3;
+}
+.ContactUs-section .content18 .card9.dark {
+  padding: 100px 0rem 0rem 43px;
+  width: 816px;
+  position: relative;
+  border-radius: 25px;
+  left: 127px;
+  height: 800px;
+  box-shadow: 3px 3px #FF4801;
+  background-color: #051341;
+  position: relative;
+  border-radius: 25px;
+  background: url(/img/bg3.jpg);
+}
+.ContactUs-section .content18 .card9.light {
+  padding: 100px 0rem 0rem 43px;
+  width: 816px;
+  position: relative;
+  border-radius: 25px;
+  left: 127px;
+  height: 800px;
+  box-shadow: 3px 3px #FF4801;
+  background-color: white;
+  position: relative;
+  border-radius: 25px;
+  background: url(/img/bg3.jpg);
+}
+.ContactUs-section .content18 .contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.ContactUs-section .content18 .contact-form1 {
+  padding: 50px;
+  right: 50px;
+  align-items: center;
+}
+.ContactUs-section .content18 .contact-input input.dark {
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid white;
+  padding-left: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: poppins;
+  border-radius: 10px;
+  outline: none;
+}
+.ContactUs-section .content18 .contact-input input.light {
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid #000;
+  padding-left: 5px;
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: poppins;
+  border-radius: 10px;
+  outline: none;
+}
+.ContactUs-section .content18 .contact-button button {
+  background-color: #FF4801;
+  color: #fff;
+  border-radius: 10px;
+  width: 100px;
+  border: none;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 20px;
+  height: 50px;
+  margin-left: 18rem;
+}
+.ContactUs-section .content18 .contact-button button {
+  background-color: white;
+  color: #FF4801;
+  border-radius: 10px;
+  width: 100px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  height: 50px;
+  padding: 5px;
+  border: 2px solid black;
+}/*# sourceMappingURL=Financials.css.map */
